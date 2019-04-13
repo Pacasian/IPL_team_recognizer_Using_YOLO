@@ -14,9 +14,15 @@ this is an essential part because the coco dataset will be having the labels and
 real world objects) thus the yolo algorithm compare the extracted features(weights) with the predefined ones.
 
 **Requirements**
+
+
 **Hardware:**
 - -> Nvidia or AMD grapics (** it can be also achieved through CPU potentials**)
+
+
 **Software:**
+
+
 - ->Any python based environment (preferibly Anaconda)
 - ->installed opencv(preferbily Opencv3 rather than opencv4)
 - ->installed imutils(for installing ** pip install --upgrade imuilts**)
@@ -36,7 +42,18 @@ The command for this module is :
 **python yolo_video.py --input input/your_video_name --output output/any_name.avi --yolo yolo-colo**
 the output file must be of avi extension
 
+
+## Output for Image-based module
+
+<img src="output1.png" alt="sample_output_1" width="500" />
+
+## Output for Image-based module
+
+<img src="output2.png" alt="sample_output_2" width="500" />
+
 **Credits**
 https://pjreddie.com/darknet/yolo/
+
 https://www.pyimagesearch.com/
+
 https://github.com/priya-dwivedi/
